@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login-page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body><div class="container">
+    <form action="">
+    <section class="layout">
+      <div class="sideimage"></div>
+      <div class="loginside">
+        <div class="userdetails">
+          <div class="welcome">
+            <div class="welcome-greet">Welcome back</div>
+            <p class="welcomestyle">Welcome back! Please enter your details.</p>
+          </div>
+          <div class="email">
+            <label for="userEmail">Email</label><br />
+            <input
+              type="email"
+              name="userEmail"
+              id="userEmail"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="password-section">
+            <label for="userpassword">Password</label><br />
+            <input type="password" name="userpassword" id="userpassword" required placeholder="***********"/>
+          </div>
+          <div class="forgotpass">
+            <div class="savepass">
+              <input type="checkbox" name="checkbox" id="checkbox" /><label
+                for="checkbox"
+                >Remember me</label
+              >
+            </div>
+            <div class="forgotpassword"><p>Forgot password</p></div></div>
+            <button type="submit">Sign In</button>
+            <button class="google-sign-in">
+              <i class="fa-brands fa-google"></i> Sign in with Google
+            </button>
+            <div class="signup">
+               <p>Don’t have an account? <a href="#">Sign up for free!</a></p>
+          
+            </div>
+           
+        </div>
+      </div>
+    </section>
+    </form>
+    </div>
+  </body>
+</html>
