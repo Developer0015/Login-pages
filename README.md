@@ -17,7 +17,7 @@ This project focuses on simple layout design, styling, and user-friendly UI.
 - CSS3
 
 ## 📸 Preview
-![Login Page Preview](image.png)
+![Login Page Preview](index.html)
 
 ## 🚀 How to Use
 1. Clone the repository:
